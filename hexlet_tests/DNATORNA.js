@@ -16,7 +16,4 @@ const dnaToRna = (str) => {
   }
   return result;
 };
-console.log(dnaToRna("ACGTGGTCTTAA")); // 'UGCACCAGAAUU'
-console.log(dnaToRna("CCGTA")); // 'GGCAU'
-console.log(dnaToRna("")); // ''
-console.log(dnaToRna("ACNTG")); // null
+export default dnaToRna;
