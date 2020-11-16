@@ -13,4 +13,4 @@ const withoutTwoZeros = (zeros, ones) => {
   const result = fact(n)/(fact(k)*fact(n-k));
   return result;
 };
-console.log(withoutTwoZeros(3,1));
+export default withoutTwoZeros;
