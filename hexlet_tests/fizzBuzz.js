@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+/* eslint-disable consistent-return */
 
 const fizzBuzz = (begin, end) => {
     if (begin > end) {
