@@ -1,7 +1,12 @@
 const areBracetsBalsnced = (str) => {
-  if (str[0] !== "(" && str[str.length - 1] !== ")") {
+  if (str === '') {
+      return true;
+  }
+  
+   if (str[0] !== "(" && str[str.length - 1] !== ")") {
     return false;
   }
+
   let acc = 0;
   for (let i = 0; i < str.length; i += 1) {
       if (str[i] === '(') {
